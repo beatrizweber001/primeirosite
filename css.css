@@ -1,0 +1,80 @@
+body{font-family: 'Courier New', Courier, monospace, Arial; background-color: #F5F5F5;}
+    
+    /*header*/
+
+    #menu ul {
+        padding:0px;
+        margin:0px;
+        list-style:none;
+        text-align: center;
+        background-color: rgb(105, 94, 255);
+        border-color: rgb(45, 0, 97);
+        border: 5px solid;
+    }
+    #menu ul li { display: inline; }
+    #menu ul li a {
+        color: black;
+        padding: 10px 20px;
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+    #menu ul li a:hover{color: #d8d3ff;}
+
+    /*header*/
+
+    /*header*/
+
+    #menuinicio ul {
+        padding:px;
+        margin:0px;
+        list-style:none;
+        text-align: center;
+        background-color: rgb(105, 94, 255);
+        border-color: rgb(45, 0, 97);
+        border: 3px solid;
+    }
+    #menuinicio ul li { 
+        display: block; 
+        padding-top: 40px;
+        padding-bottom: 42px;
+    }
+    #menuinicio ul li a {
+        color: black;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 50px;
+    }
+    #menuinicio ul li a:hover{color:  #d8d3ff;}
+
+    /*header*/
+
+    /*TextoInício*/
+
+    h1{font-size: 40px;color: black;}
+
+    #Inicio{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+
+    #InicioTexto{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    p{  width: 500px;
+        text-align: justify;
+    }
+    #exemploshtml{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    /*TextoInício*/
